@@ -46,7 +46,7 @@ lines(
   col = "blue"
 )
 
-legend("topright", names(df)[7:9], col=c("black", "blue","red"), bty = "n",  lty = c(1,1,1))
+legend("topright", names(df)[7:9], col=c("black", "blue","red"), bty = "n", lty = c(1,1,1))
 
 # Plot 4
 with(df,
@@ -54,7 +54,7 @@ with(df,
     as.POSIXlt(df$Time),
     Global_reactive_power,
     type = "l",
-    xlab = "",
+    xlab = "datetime"
   )
 )
 

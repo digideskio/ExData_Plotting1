@@ -25,6 +25,6 @@ lines(
   col = "blue"
 )
 
-legend("topright", names(df)[7:9], col=c("black", "blue","red"))
+legend("topright", names(df)[7:9], col=c("black", "blue","red"), lty = c(1,1,1))
 
 dev.off()
