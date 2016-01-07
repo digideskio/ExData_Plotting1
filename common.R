@@ -26,8 +26,6 @@ df <- df[df$Date %in% as.Date(c('2007-02-01', '2007-02-02')),]
 
 # Convert Time string to time
 df$Time <- paste(df$Date, df$Time)
-#df$Time <- lapply(df$Time, strptime, format = "%H:%M:%s")
-#df$Time <- lapply(df$Time, as.POSIXlt)
 
 
 
